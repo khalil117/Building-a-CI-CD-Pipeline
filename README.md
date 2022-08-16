@@ -15,8 +15,7 @@ Then we add keys-pairs to our repo
 4 - git add * to add all modified file
 5 - git commit -m "adding a change to the README"
 
-
 # if this was the first commit , we need to run additioanal commands 
 
-5 - a - git config --global user.email "you@example.com"
-5 - b-  git config --global user.name "Your Name"
+ a - git config --global user.email "you@example.com"
+ b-  git config --global user.name "Your Name"
