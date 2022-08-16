@@ -11,3 +11,12 @@ cat /home/odl_user/.ssh/id_rsa.pub
 Then we add keys-pairs to our repo 
 
 2 - git clone git@github.com:khalil117/azure-devops.git
+3 - git status to see modified file 
+4 - git add * to add all modified file
+5 - git commit -m "adding a change to the README"
+
+
+# if this was the first commit , we need to run additioanal commands 
+
+5 - a - git config --global user.email "you@example.com"
+5 - b-  git config --global user.name "Your Name"
