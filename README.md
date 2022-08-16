@@ -14,7 +14,7 @@ Then we add keys-pairs to our repo
 
 3 - git status to see modified file 
 
-4 - git add * to add all modified file
+4 - git add * to add all modified file (we can also specifie the file name)
 
 5 - git commit -m "adding a change to the README"
 
@@ -25,3 +25,5 @@ Then we add keys-pairs to our repo
  b-  git config --global user.name "Your Name"
 
 6 - git push
+
+After every modification, we run commands from 3 to 6  
