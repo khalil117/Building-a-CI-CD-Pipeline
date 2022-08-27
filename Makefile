@@ -1,5 +1,5 @@
 install:
-^Ipip	install	--upgrade	pip	&&\
+^Ipip	install	--upgrade	pip	&&\t
 ^Ipip	install	-r	requirements.txt
 
 test:
