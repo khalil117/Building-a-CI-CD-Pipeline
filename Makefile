@@ -1,6 +1,6 @@
 install:
-^Ipip install --upgrade pip &&\
-^Ipip install -r requirements.txt
+^Ipip	install	--upgrade	pip	&&\
+^Ipip	install	-r	requirements.txt
 
 test:
 ^Ipython -m pytest -vv test_hello.py
