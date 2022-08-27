@@ -1,12 +1,12 @@
 install:
-^Ipip	install	--upgrade	pip	&&\
-^Ipip	install	-r	requirements.txt
+	pip	install	--upgrade	pip	&&\
+	pip	install	-r	requirements.txt
 
 test:
-^Ipython -m pytest -vv test_hello.py
+	python -m pytest -vv test_hello.py
 
 
 lint:
-^Ipylint --disable=R,C hello.py
+	pylint --disable=R,C hello.py
 
 all: install lint test
