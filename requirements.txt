@@ -1,5 +1,5 @@
 pylint
 pytest
 Flask==2.0.3
-pandas==0.24.2
+pandas
 scikit-learn
