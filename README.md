@@ -28,7 +28,8 @@ Then we add keys-pairs to our repo
 
 After every modification, we run commands from 3 to 6  
 
-CI: Set Up Azure Cloud Shell
+# CI: Set Up Azure Cloud Shell
+
 1. Creation of the Cloud-Based Development Environment
 2. Create Project Scaffolding
 
