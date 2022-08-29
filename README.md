@@ -1,5 +1,14 @@
-# azure-devops
-This a repo for azure devops
+# Building a CI/CD Pipeline
+
+## Overview
+This is the final project for the course **Agile Development with Azure** as part of the Udacity **DevOps Engineer Nanodegree Program**. The goal is to build a complete continuous integration and continuous delivery pipeline using the following tools and concepts:
+* **Github** :octocat: : as a central code repository
+* **Github Actions** : to trigger continous integration builds
+* **Makefile**: that contains package dependencies, linting and testing steps
+* **Azure Pipelines**: to continously deliver an Azure Web App if code is pushed to Github. 
+
+For this project a Pyhton-based machine learning application using the Flask web framework was provided. The model of that web app has been trained to predict housing prices in Boston according to several feautres, such as average rooms in a home and data about highway access, etc.
+
 
 # Project Plan
 
