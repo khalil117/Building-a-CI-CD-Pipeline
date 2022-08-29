@@ -17,6 +17,12 @@ https://trello.com/invite/b/atbGGi1X/1172b2d25dd112c67f4db80c72ccb8c0/demo
 
 2. spreadsheet that includes the original and final project plan
 
+
+## Instructions
+
+![Project architecture](https://user-images.githubusercontent.com/33384529/187223319-d480d163-e5bc-4ee8-89a7-c776bea7baad.PNG)
+
+
 # Before we start
 
 1 - Create ssh-keys in Azure Cloud Shell 
@@ -114,6 +120,8 @@ and finally
 
 
 # Enhancements
-
+Possible enhancements are:
+* create a dev branch in Github to test code in dedicated test environment before deploying to production
+* use Azure Container Instances to deploy the web app
 # Demo
 
