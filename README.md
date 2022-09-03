@@ -67,8 +67,8 @@ The Screenshot below show that project has been successfully cloned into Azure C
 
    2.3 Create the Python Virtual Environment 
 
-        python3 -m venv ~/.myrepo 
-        source ~/.myrepo/bin/activate
+        python3 -m venv ~/.azure-devops 
+        source ~/.azure-devops/bin/activate
 
 3. Create the script file and test file.
 4. Last step here is to run make all command and the Screenshot below showing the passing tests that are displayed after running the make all command from the Makefile
