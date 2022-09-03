@@ -16,6 +16,7 @@ For this project a Pyhton-based machine learning application using the Flask web
 https://trello.com/invite/b/atbGGi1X/1172b2d25dd112c67f4db80c72ccb8c0/demo
 
 2. spreadsheet that includes the original and final project plan
+https://docs.google.com/spreadsheets/d/1rqKnuvYAlBY3vT2KmaJaQwNVBpciabnoXsvY-BUSlFw/edit#gid=1348135932
 
 
 ## Instructions
@@ -113,10 +114,15 @@ and finally
 1. az webapp up --name azurecicdpipeline --resource-group Azuredevops
 2. python app.py 
 3. ./make_predict_azure_app.sh 
+### Verify our deployment
 
 ![image (1)](https://user-images.githubusercontent.com/33384529/187081461-8f9b1441-46a7-4cd4-ab77-c27f10a73c78.png)
 ![image (3)](https://user-images.githubusercontent.com/33384529/187081576-9af25322-f181-4671-8159-ab6963487282.png)
-![image (2)](https://user-images.githubusercontent.com/33384529/187081589-cc324277-f530-45ba-81c1-9c5a7689ce6a.png)
+
+# Locust Output 
+
+![locust1](https://user-images.githubusercontent.com/33384529/188279216-bdb8dbaf-53b7-4867-8394-ccabea7794be.PNG)
+![locust2](https://user-images.githubusercontent.com/33384529/188279222-69e782f9-d551-4892-b177-a344b1e5327b.PNG)
 
 
 # Enhancements
@@ -124,4 +130,6 @@ Possible enhancements are:
 * create a dev branch in Github to test code in dedicated test environment before deploying to production
 * use Azure Container Instances to deploy the web app
 # Demo
+
+https://youtu.be/9qqumbKEgpw
 
