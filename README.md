@@ -1,3 +1,5 @@
+[![Python application test with Github Actions](https://github.com/khalil117/azure-devops/actions/workflows/pythonapp.yml/badge.svg?branch=main)](https://github.com/khalil117/azure-devops/actions/workflows/pythonapp.yml)
+
 # Building a CI/CD Pipeline
 
 ## Overview
