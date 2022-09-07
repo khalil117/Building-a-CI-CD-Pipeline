@@ -116,6 +116,15 @@ and finally
 1. az webapp up --name azurecicdpipeline --resource-group Azuredevops
 2. python app.py 
 3. ./make_predict_azure_app.sh 
+
+### Deploying to Azure App Services
+
+ Deploy the web app to azure using az webapp up -n
+
+![WebApp](https://user-images.githubusercontent.com/33384529/188933533-701ee9e7-ec44-4459-9fe5-2d099acfdc0f.PNG)
+
+
+
 ### Verify our deployment
 
 ![image (1)](https://user-images.githubusercontent.com/33384529/187081461-8f9b1441-46a7-4cd4-ab77-c27f10a73c78.png)
