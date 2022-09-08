@@ -138,8 +138,34 @@ Test the remote webapp:
 
 # Locust Output 
 
+Using the parameters above locust will use 20 users with a spawn rate of 5 users per second and run for 20 seconds:
+
+          locust -f locustfile.py --headless -u 20 -r 5 -t 20
+
 ![locust1](https://user-images.githubusercontent.com/33384529/188279216-bdb8dbaf-53b7-4867-8394-ccabea7794be.PNG)
 ![locust2](https://user-images.githubusercontent.com/33384529/188279222-69e782f9-d551-4892-b177-a344b1e5327b.PNG)
+
+# Setting up CI/CD using Azure Pipelines
+
+1 - Go to your Azure DevOps Organization and create a project named " Flask ML Deploy "
+2 - Within project settings go to Service Connections and create one named " Flask ML App Service "
+3 - Create a new Personal Access Token (PAT) that will be used instead of a password by the build agent (Linux VM) for authentication/authorization
+4 - Then we create an Agent Pool, Go to the Flask-ML-Deploy DevOps project Settings >> Agent pools and add a new agent pool.
+5 - VM Creation, Navigate to the "Virtual machines" service in the Azure Portal, and then select "+ Create" to create a VM.
+6 - Configure the Linux VM as an Azure DevOps Build Agent,  
+7 - In you Azure DevOps, navigate to Organization Settings >> Agent Pools >> myAgentPool and then select the Agents tab. Confirm that the self-hosted agent is online.
+
+## Set up the DevOps Pipeline
+
+Go to Pipelines and create pipeline using the option GitHub (YAML), select your repository and configure your Azure Web App with Python to Linux Web App on Azure
+ Set up the continuous delivery workflow
+In the screenshots below shows succsefully Build and Deploy job 
+
+![pipeline](https://user-images.githubusercontent.com/33384529/189128424-a5c7e2a3-6408-4402-b948-8a00b70f5aa3.PNG)
+
+See below example of resent work after deployment
+
+ ![JobBuild](https://user-images.githubusercontent.com/33384529/189128889-8bffd1af-52ac-4739-a48d-b1fa8fa3ca27.PNG)
 
 
 # Enhancements
