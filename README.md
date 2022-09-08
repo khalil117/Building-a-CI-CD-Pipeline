@@ -87,8 +87,7 @@ The Screenshot below show that project has been successfully cloned into Azure C
 2. Updating the pythonapp.yml code 
 3. Screenshot of passing GitHub Actions Build
 
-![actionsBuild](https://user-images.githubusercontent.com/33384529/187077969-d907bf12-5bdb-4c7b-ae91-42dfcc665750.PNG)
-
+![actionsBuild](https://user-images.githubusercontent.com/33384529/189120238-bcfa64ed-5e40-455f-bebd-30d8c3a1c599.PNG)
 
 
 # CD : Continuous Delivery on Azure
@@ -127,8 +126,15 @@ and finally
 
 ### Verify our deployment
 
-![image (1)](https://user-images.githubusercontent.com/33384529/187081461-8f9b1441-46a7-4cd4-ab77-c27f10a73c78.png)
+Check if the app is up and running by opening the URL containing the webapp name provided in the previous step: https://azurecicdpipleline.azurewebsites.net/
+
 ![image (3)](https://user-images.githubusercontent.com/33384529/187081576-9af25322-f181-4671-8159-ab6963487282.png)
+
+ Edit file 'make_predict_azure_app.sh' and replace '< yourappname >' with your webapp name (e.g. azurecicdpipeline).
+
+Test the remote webapp:
+![image (1)](https://user-images.githubusercontent.com/33384529/187081461-8f9b1441-46a7-4cd4-ab77-c27f10a73c78.png)
+
 
 # Locust Output 
 
