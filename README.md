@@ -148,12 +148,19 @@ Using the parameters above locust will use 20 users with a spawn rate of 5 users
 # Setting up CI/CD using Azure Pipelines
 
 1 - Go to your Azure DevOps Organization and create a project named " Flask ML Deploy "
+
 2 - Within project settings go to Service Connections and create one named " Flask ML App Service "
+
 3 - Create a new Personal Access Token (PAT) that will be used instead of a password by the build agent (Linux VM) for authentication/authorization
+
 4 - Then we create an Agent Pool, Go to the Flask-ML-Deploy DevOps project Settings >> Agent pools and add a new agent pool.
+
 5 - VM Creation, Navigate to the "Virtual machines" service in the Azure Portal, and then select "+ Create" to create a VM.
+
 6 - Configure the Linux VM as an Azure DevOps Build Agent,  
+
 7 - In you Azure DevOps, navigate to Organization Settings >> Agent Pools >> myAgentPool and then select the Agents tab. Confirm that the self-hosted agent is online.
+
 
 ## Set up the DevOps Pipeline
 
